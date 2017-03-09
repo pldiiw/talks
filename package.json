@@ -1,0 +1,16 @@
+{
+  "name": "talks",
+  "version": "0.0.0",
+  "description": "Here are all the slides of my talks",
+  "author": {
+    "name": "Pierre-Louis Dourneau"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pldiiw/talks.git"
+  },
+  "dependencies": {
+    "reveal-md": "^0.1.2"
+  },
+  "license": "Unlicense"
+}
