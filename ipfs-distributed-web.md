@@ -349,7 +349,7 @@ This is where the immutability comes from
 
 Example:
 
-![A simple example of a merkle](resources/merkle-example.png)
+![A simple example of a merkle](resources/merkle-example.svg)
 
 Note: what is a merkle dag ? a dag ?
 
@@ -434,7 +434,7 @@ Note: Changing content means adding content.
 
 ---
 
-And what about human readibility? 
+And what about human readability? 
 
 ----
 
@@ -454,8 +454,8 @@ ipfs.io. 2 IN TXT "dnslink=/ipfs/Qmdf6iGuPoQ7jmGM48nWoy46F5EwMiXYVif968cpwQXDrU"
        content      path
 ```
 
-Note: not very convenient, DNS is SLOW  
-you want sub-millisecond mutability
+Note: not very convenient, DNS is SLOW.  
+you want sub-millisecond mutability.
 
 ----
 
