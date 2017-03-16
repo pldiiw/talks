@@ -140,7 +140,6 @@ Yes, a lot of problems can happen
 #### Datacenter
 
 <!-- .slide: data-background="resources/burned-bitcoin-mine.jpg" -->
-Note: ![Burned bitcoin mine](resources/burned-bitcoin-mine.jpg)
 
 ---
 
@@ -241,7 +240,10 @@ explain what they do and why
 
 ----
 
-explain digital vellum
+Digital Vellum
+
+Note: Data so old that it has lost meaning, uninterpretable. Can be so, but at
+a huge cost.
 
 ---
 
