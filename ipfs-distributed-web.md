@@ -505,3 +505,4 @@ hash of pub as a reference
  * [IPFS workshop with Juan Benet (Open Knowledge Ireland)](https://www.youtube.com/watch?v=vQrbxyDPSXg)
  * [IPFS and The Distributed, Permanent Web by Juan Benet](https://ipfs.io/ipfs/QmegF8GYxaxvhQEP6zDQ4AXPSUAwwAL44jrPcr3mcgRDGP)
  * [IPFS specifications on GitHub](https://github.com/ipfs/specs)
+ * [Data Structures In and On IPFS by Juan Benet (Slides)](https://www.slideshare.net/InfoQ/data-structures-in-and-on-ipfs)
