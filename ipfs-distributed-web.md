@@ -14,7 +14,7 @@ Note: Aim to augment what we can do.
 If you have an idea on what humanity should be able to do, just write a
 protocol.
 
-----
+---
 
 <!-- .slide: data-background="resources/baran-networks.jpg" -->
 
@@ -26,15 +26,16 @@ can have vast implications in the uses of the protocols.
  * Distributed: everything can talk to everything else, extremely resilient
    fabric
 
-----
-
-Kind of a nervous system, right?
+---
 
 <!-- .slide: data-background="resources/internet.jpg" -->
 
+Kind of a nervous system, right?
+<!-- .element: style="color: white" -->
+
 Note: we've become so dependent on it -- we use it for everything
 
-----
+---
 
 <!-- .slide: data-background="resources/ip-thin-waist.jpg" -->
 
@@ -46,14 +47,14 @@ A "thin waist" to allow the lower and upper layers of the network to evolve
 separately -- and only have a very small protocol in between that would mediate
 how the whole network would grow.
 
-----
+---
 
 ![The cycle of bringing ideas to reality](resources/augmenting-humans.jpg)
 
 Note: You take these ideas, if they're good enough, you write specs, you turn
 those specs into code, you deploy it into computers, and you enhance humans.
 
-----
+---
 
 Not many ideas end up being used.
 
@@ -89,23 +90,24 @@ we're telling where to find something instead of what
 
 Note: huge loss ! same with video !
 
-----
+---
 
 ![Average connection speed in the G7 countries](resources/average-connection-speed-g7.png)
 
-----
+---
 
 ![HDD vs BW prices over time](resources/hdd-vs-bw-prices-over-time.png) <!-- .element height="43%" width="43%" -->
 
-----
+---
 
 ![Disk capacity outpaces speed](resources/capacity-outpaces-speed.png)
 
 ---
 
-### Being offline
-
 <!-- .slide: data-background="resources/offline.png" -->
+
+### Being offline
+<!-- .element: style="color: white" -->
 
 Note: bad model  
 we carry more and more devices around, and many in context they are not  
@@ -124,9 +126,10 @@ Yes, a lot of problems can happen
 
 ---
 
-#### Travel
-
 <!-- .slide: data-background="resources/insideplane.jpg" -->
+
+#### Travel
+<!-- .element: style="color: white" -->
 
 ---
 
@@ -137,9 +140,10 @@ Yes, a lot of problems can happen
 
 ---
 
-#### Datacenter
-
 <!-- .slide: data-background="resources/burned-bitcoin-mine.jpg" -->
+
+#### Datacenter
+<!-- .element: style="color: white" -->
 
 ---
 
@@ -157,22 +161,21 @@ Note: It matters, the apps potientally saves life, ask egyptians.
 
 Note: tesco tweet, dropbox leak, prism, google
 
-----
+---
 
 ![PRISM Collection details screenshot](resources/prism.jpg)
 
-
-----
+---
 
 ![Public internet vs Google Cloud](resources/public-internet-vs-google-cloud.png)
 
-----
+---
 
 We're encrypting communications.
 
 ![Encrypting communications, not data](resources/encrypted-communications.png)
 
-----
+---
 
 We should be encrypting data.
 
@@ -180,9 +183,10 @@ We should be encrypting data.
 
 ---
 
-### Data control
-
 <!-- .slide: data-background="resources/data-control.png" -->
+
+### Data control
+<!-- .element: style="color: white" -->
 
 Note: Corps control our data, the link given to people is a link that
 specifically goes to their website. They can censure it or they can disappear,
@@ -197,20 +201,20 @@ access things.
 
 _Knownledge is precious..._
 
-----
+---
 
 <!-- .slide: data-background="resources/autodafe.png" -->
 
 Note: Book burning? Knowledge is precious!  
 We're losing knownledge everyday (404)
 
-----
+---
 
 _... But we're losing a lot if it everyday._ 
 
 ![Error 404](resources/error-404.png)
 
-----
+---
 
 _Imagine..._
 
@@ -218,27 +222,29 @@ _Imagine..._
 
 Note: Imagine stackoverflow going away
 
-----
-
-We live in a web of documents on machines
+---
 
 <!-- .slide: data-background="resources/web-of-docs-on-machines.png" -->
+
+We live in a web of documents on machines
+<!-- .element: style="color: white" -->
 
 Note: Every document is interconnected, if we lose some of them, we lose
 meaning
 
-----
-
-An initiative: The Internet Archive
+---
 
 <!-- .slide: data-background="resources/internet-archive.jpg" -->
+
+An initiative: The Internet Archive
+<!-- .element: style="color: white" -->
 
 [_archive.org_](https://archive.org)
 
 Note: some people took the initiative: archive.org  
 explain what they do and why
 
-----
+---
 
 Digital Vellum
 
@@ -249,7 +255,7 @@ a huge cost.
 
 ## Upgrading the web
 
-----
+---
 
 <!-- .slide: data-background="resources/upgrade-the-web.jpg" -->
 
@@ -259,9 +265,10 @@ work.
 
 ---
 
-### IPFS
-
 <!-- .slide: data-background="resources/ipfs-goals.png" -->
+
+### IPFS
+<!-- .element: style="color: white" -->
 
 Note: Emphasize on _"faster"_.
 
@@ -284,9 +291,10 @@ Make it work accross huge distances -- same idea behind IPFS
 
 #### The IPFS stack
 
-----
+---
 
-![The IPFS Stack](resources/ipfs-stack.png) <!-- .element: width="70%" height="70%" -->
+![The IPFS Stack](resources/ipfs-stack.png)
+<!-- .element: width="70%" height="70%" -->
 
 Note: Took inspiration from all of these protocols.  
 IPFS is this stack of protocols to try to rebase the entire web/application
@@ -297,7 +305,7 @@ Thus, we need:
  * A way to move the data efficiently
  * A way to find the data
 
-----
+---
 
 <!-- .slide: data-background="resources/ipfs-stack-details.jpg" -->
 
@@ -306,11 +314,11 @@ from completely always mutable links to making a distinction between mutable
 and immutable links -- thus giving a much better possibility to be able to
 route, cache the content and so on.
 
-----
+---
 
 <!-- .slide: data-background="resources/ipfs-stack-protocols.jpg" -->
 
-----
+---
 
 <!-- .slide: data-background="resources/ipfs-stack-protocols-thin-waist.jpg" -->
 
@@ -329,11 +337,12 @@ structures!
 
 ---
 
-##### Why merkle trees?
-
 <!-- .slide: data-background="resources/simple-tree.jpg" -->
 
-----
+##### Why merkle trees?
+<!-- .element: style="color: white" -->
+
+---
 
 <!-- .slide: data-background="resources/merkle-explanation.png" -->
 
@@ -345,7 +354,7 @@ The whole point is that you cannot with the same hash with different data -- or
 it is broken  
 This is where the immutability comes from
 
-----
+---
 
 Example:
 
@@ -353,30 +362,30 @@ Example:
 
 Note: what is a merkle dag ? a dag ?
 
-----
+---
 
 <!-- .slide: data-background="resources/merkle-git-example.png" -->
 
-----
+---
 
 <!-- .slide: data-background="resources/merkle-bitcoin-example.jpg" -->
 
-----
+---
 
 <!-- .slide: data-background="resources/merkle-ethereum-example.jpg" -->
 
-----
+---
 
 <!-- .slide: data-background="resources/merkle-tree-forest.jpg" -->
 
-----
+---
 
 <!-- .slide: data-background="resources/cvs-svn-topology.png" -->
 
 Note: Why is it so valuable.  
 Before -> all centralized -> server down, you couldn't work
 
-----
+---
 
 <!-- .slide: data-background="resources/git-topology.png" -->
 
@@ -384,7 +393,7 @@ Note: decentralized/offline first -> you add immutable objects and over time
 you sync it.  
 This is the same thing that IPFS does, but to the entire web.
 
-----
+---
 
 Take the web, add some merkle linking.  
 You have IPFS.
@@ -397,11 +406,11 @@ You have IPFS.
 
 Any data structures are represented as DAGs
 
-----
+---
 
 <!-- .slide: data-background="resources/unixfs-as-a-dag.png" -->
 
-----
+---
 
 The result:  
 Addressing by _content_, not _location_
@@ -434,9 +443,9 @@ Note: Changing content means adding content.
 
 ---
 
-And what about human readability? 
+And what about human readability?
 
-----
+---
 
 Bare DNS TXT Record
 
@@ -457,7 +466,7 @@ ipfs.io. 2 IN TXT "dnslink=/ipfs/Qmdf6iGuPoQ7jmGM48nWoy46F5EwMiXYVif968cpwQXDrU"
 Note: not very convenient, DNS is SLOW.  
 you want sub-millisecond mutability.
 
-----
+---
 
 Better: IPNS
 
@@ -480,15 +489,15 @@ hash of pub as a reference
 
 <!-- .slide: data-background="resources/mesh-of-nodes.png" -->
 
-----
+---
 
 <!-- .slide: data-background="resources/web-2.0-topology.png" -->
 
-----
+---
 
 <!-- .slide: data-background="resources/web-3.0-topology.png" -->
 
-----
+---
 
 <!-- .slide: data-background="resources/webdata-example.png" -->
 
@@ -502,6 +511,9 @@ hash of pub as a reference
  * [IPFS and the Permanent Web by Juan Benet (Stanford Seminar)](https://www.youtube.com/watch?v=HUVmypx9HGI)
  * [Distributed Apps with IPFS by Juan Benet (Full Stack Fest 2016)](://www.youtube.com/watch?v=jONZtXMu03w)
  * [Orbit - Distributed, Real Time Web3 Apps with IPFS and Ethereum by Samuli Poyhtari (devcon two)](https://www.youtube.com/watch?v=vQrbxyDPSXg)
+
+----
+
  * [IPFS workshop with Juan Benet (Open Knowledge Ireland)](https://www.youtube.com/watch?v=vQrbxyDPSXg)
  * [IPFS and The Distributed, Permanent Web by Juan Benet](https://ipfs.io/ipfs/QmegF8GYxaxvhQEP6zDQ4AXPSUAwwAL44jrPcr3mcgRDGP)
  * [IPFS specifications on GitHub](https://github.com/ipfs/specs)
