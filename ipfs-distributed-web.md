@@ -6,6 +6,16 @@ Making the web faster, safer and more open.
 
 ---
 
+An Intergalactic Computer Network
+
+![Intergalactic Computer Network paper](resources/intergalatic-licklider.png)
+
+Note: What would become ARPANET.  
+Make it work accross huge distances -- same idea behind IPFS
+
+---
+
+
 ## Protocols
 
 > The web is a collection of protocols
@@ -84,9 +94,9 @@ we're telling where to find something instead of what
 
 ---
 
-### Bandwidth
+### Overloading
 
-![Download and bandwidth](resources/fb-download.gif)
+![Download and overloading](resources/fb-download.gif)
 
 Note: huge loss ! same with video !
 
@@ -149,9 +159,48 @@ Yes, a lot of problems can happen
 
 #### Censorship
 
-![Egyptian internet censorship](resources/egyptian-internet-blackout.jpg)
+![GFW chine topology](resources/gfw-china-topology.svg)
 
-Note: It matters, the apps potientally saves life, ask egyptians.
+---
+
+<!-- .slide: data-background="resources/data-control.png" -->
+
+### Data control
+<!-- .element: style="color: white" -->
+
+Note: Corps control our data, the link given to people is a link that
+specifically goes to their website. They can censure it or they can disappear,
+you can close your account etc...  
+The point of the web was to build pieces of informations that you can interlink
+between each other. Not to rely on gatekeeper and apps that design how we
+access things.
+
+----
+
+<!-- .slide: data-background="resources/internet-backbone.png" -->
+
+The Internet Backbone
+
+----
+
+> “We need to fire up the weed whacker and remove those rules that are holding back investment, innovation and job creation.” — FCC Chairman Ajit Pai
+
+----
+
+![Telco ADSL offers](resources/telco-adsl-offer.png)
+<!-- .element: width="55%" height="55%" -->
+
+----
+
+![Long tail distribution](resources/web-long-tail-distribution.png)
+
+----
+
+![Top smartphone apps of 2016](resources/top-phone-apps-2016.png)
+
+----
+
+![Internet.org](resources/internet-org-zucker.png)
 
 ---
 
@@ -164,6 +213,9 @@ Note: tesco tweet, dropbox leak, prism, google
 ---
 
 ![PRISM Collection details screenshot](resources/prism.jpg)
+
+Note: little scrambled packets are hard to make meaningful.  
+-> make everything pass at one place
 
 ---
 
@@ -181,19 +233,7 @@ We should be encrypting data.
 
 ![Encrypting data](resources/encrypted-data.png)
 
----
-
-<!-- .slide: data-background="resources/data-control.png" -->
-
-### Data control
-<!-- .element: style="color: white" -->
-
-Note: Corps control our data, the link given to people is a link that
-specifically goes to their website. They can censure it or they can disappear,
-you can close your account etc...  
-The point of the web was to build pieces of informations that you can interlink
-between each other. Not to rely on gatekeeper and apps that design how we
-access things.
+Note: Speak about Vault 7 and how encryption seems to really work.
 
 ---
 
@@ -212,15 +252,7 @@ We're losing knownledge everyday (404)
 
 _... But we're losing a lot if it everyday._ 
 
-![Error 404](resources/error-404.png)
-
----
-
-_Imagine..._
-
-![Stack overflow offline for maintenance](resources/so-maintenance.png)
-
-Note: Imagine stackoverflow going away
+![Error 404](resources/error-404-wiki.png)
 
 ---
 
@@ -230,7 +262,9 @@ We live in a web of documents on machines
 <!-- .element: style="color: white" -->
 
 Note: Every document is interconnected, if we lose some of them, we lose
-meaning
+meaning  
+You're the owner of your content, but removing it make all the docs that relate
+to yours loose meaning
 
 ---
 
@@ -247,6 +281,8 @@ explain what they do and why
 ---
 
 Digital Vellum
+
+![Vellum](resources/rosette.jpg)
 
 Note: Data so old that it has lost meaning, uninterpretable. Can be so, but at
 a huge cost.
@@ -280,15 +316,6 @@ Note: An algorithm or program that moves around data with links.
 
 ---
 
-An Intergalactic Computer Network
-
-![Intergalactic Computer Network paper](resources/intergalatic-licklider.png)
-
-Note: What would become ARPANET.  
-Make it work accross huge distances -- same idea behind IPFS
-
----
-
 #### The IPFS stack
 
 ---
@@ -318,10 +345,6 @@ route, cache the content and so on.
 
 <!-- .slide: data-background="resources/ipfs-stack-protocols.jpg" -->
 
----
-
-<!-- .slide: data-background="resources/ipfs-stack-protocols-thin-waist.jpg" -->
-
 Note: If IP is the thin waist of the Internet, the merkledag is the thin waist
 of distributed protocols.  
 (It's already the case, but everyone is doing it in its own way -- IPFS is
@@ -339,7 +362,7 @@ structures!
 
 <!-- .slide: data-background="resources/simple-tree.jpg" -->
 
-##### Why merkle trees?
+##### Why merkle DAGs?
 <!-- .element: style="color: white" -->
 
 ---
@@ -353,14 +376,6 @@ use the content itself to determine the link.
 The whole point is that you cannot with the same hash with different data -- or
 it is broken  
 This is where the immutability comes from
-
----
-
-Example:
-
-![A simple example of a merkle](resources/merkle-example.svg)
-
-Note: what is a merkle dag ? a dag ?
 
 ---
 
@@ -398,17 +413,7 @@ This is the same thing that IPFS does, but to the entire web.
 Take the web, add some merkle linking.  
 You have IPFS.
 
----
-
-##### The Merkle DAG
-
 ![Merkledag drawing](resources/merkledag.png)
-
-Any data structures are represented as DAGs
-
----
-
-<!-- .slide: data-background="resources/unixfs-as-a-dag.png" -->
 
 ---
 
@@ -474,7 +479,7 @@ Better: IPNS
 /ipns/example.com/foo/bar/baz.jpg
            ┃
            V
-/ipns/QmYJf6aFf2z/foo/bar/baz.jpg
+/ipns/QmYJf6aFf2/foo/bar/baz.jpg
            ┃
            V
 /ipfs/QmW9JErc8a/foo/bar/baz.jpg
@@ -484,6 +489,22 @@ Better: IPNS
 Note: pointers onto the merkle DAG. Works by signing with a public/private key
 pair.  
 hash of pub as a reference
+
+---
+
+```
+/ipns/QmYJf6aFf2/foo/bar/baz.jpg
+           ┃
+           V
+/ipfs/QmW9JErc8a/foo/bar/baz.jpg
+
+ +--------+ +--------+      +------------+     +-------+
+ | public | | secret |      | QmW9JErc8a |     |×××××××|
+ | key    | | key    |  ──> | signed by  | ──> |content|
+ +--------+ +--------+      | QmYJf6aFf2 |     |×××××××|
+ QmYJf6aFf2                 +------------+     +-------+
+                                               QmW9JErc8a
+```
 
 ---
 
@@ -499,7 +520,7 @@ hash of pub as a reference
 
 ---
 
-<!-- .slide: data-background="resources/webdata-example.png" -->
+#### Demo time
 
 ---
 
