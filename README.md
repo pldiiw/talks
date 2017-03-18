@@ -15,5 +15,5 @@ The markdown files in this repository are under the Unlicense. See the
 [Reveal-md] is under the MIT License © Lars Kappert.
 
 [LICENSE]: ./LICENSE
-[Reveal.js]: https://github.com/pldiiw/reveal.js
+[Reveal.js]: https://github.com/hakimel/reveal.js
 [Reveal-md]: https://github.com/webpro/reveal-md
