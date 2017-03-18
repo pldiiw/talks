@@ -539,3 +539,11 @@ hash of pub as a reference
  * [IPFS and The Distributed, Permanent Web by Juan Benet](https://ipfs.io/ipfs/QmegF8GYxaxvhQEP6zDQ4AXPSUAwwAL44jrPcr3mcgRDGP)
  * [IPFS specifications on GitHub](https://github.com/ipfs/specs)
  * [Data Structures In and On IPFS by Juan Benet (Slides)](https://www.slideshare.net/InfoQ/data-structures-in-and-on-ipfs)
+ * [IPFS White Paper - Draft 3 by Juan Benet](https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf)
+ * [Inside the invisible war for the open internet by Quincy Larson (FreeCodeCamp's medium)](https://medium.freecodecamp.com/inside-the-invisible-war-for-the-open-internet-dd31a29a3f08)
+
+----
+
+ * [IPFS' FAQ on GitHub](https://github.com/ipfs/faq)
+ * [What the CIA WikiLeaks Dump Tells Us: Encryption Works by The Associated Press (NY Times)](https://www.nytimes.com/aponline/2017/03/11/technology/ap-us-tec-wikileaks-cia-tech-encryption.html)
+ * [Multiformats' Website](http://multiformats.io)
